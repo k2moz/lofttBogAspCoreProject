@@ -1,0 +1,14 @@
+D:\Шара\Projects\Git\LoftBlogAspNetCoreProject\WebApplication1\PresentationLayer\obj\Debug\netcoreapp2.0\PresentationLayer.csprojAssemblyReference.cache
+D:\Шара\Projects\Git\LoftBlogAspNetCoreProject\WebApplication1\PresentationLayer\obj\Debug\netcoreapp2.0\PresentationLayer.csproj.CoreCompileInputs.cache
+D:\Шара\Projects\Git\LoftBlogAspNetCoreProject\WebApplication1\PresentationLayer\obj\Debug\netcoreapp2.0\PresentationLayer.AssemblyInfoInputs.cache
+D:\Шара\Projects\Git\LoftBlogAspNetCoreProject\WebApplication1\PresentationLayer\obj\Debug\netcoreapp2.0\PresentationLayer.AssemblyInfo.cs
+D:\Шара\Projects\Git\LoftBlogAspNetCoreProject\WebApplication1\PresentationLayer\bin\Debug\netcoreapp2.0\PresentationLayer.deps.json
+D:\Шара\Projects\Git\LoftBlogAspNetCoreProject\WebApplication1\PresentationLayer\bin\Debug\netcoreapp2.0\PresentationLayer.dll
+D:\Шара\Projects\Git\LoftBlogAspNetCoreProject\WebApplication1\PresentationLayer\bin\Debug\netcoreapp2.0\PresentationLayer.pdb
+D:\Шара\Projects\Git\LoftBlogAspNetCoreProject\WebApplication1\PresentationLayer\bin\Debug\netcoreapp2.0\BuissnesLayer.dll
+D:\Шара\Projects\Git\LoftBlogAspNetCoreProject\WebApplication1\PresentationLayer\bin\Debug\netcoreapp2.0\DataLayer.dll
+D:\Шара\Projects\Git\LoftBlogAspNetCoreProject\WebApplication1\PresentationLayer\bin\Debug\netcoreapp2.0\BuissnesLayer.pdb
+D:\Шара\Projects\Git\LoftBlogAspNetCoreProject\WebApplication1\PresentationLayer\bin\Debug\netcoreapp2.0\DataLayer.pdb
+D:\Шара\Projects\Git\LoftBlogAspNetCoreProject\WebApplication1\PresentationLayer\obj\Debug\netcoreapp2.0\PresentationLayer.csproj.CopyComplete
+D:\Шара\Projects\Git\LoftBlogAspNetCoreProject\WebApplication1\PresentationLayer\obj\Debug\netcoreapp2.0\PresentationLayer.dll
+D:\Шара\Projects\Git\LoftBlogAspNetCoreProject\WebApplication1\PresentationLayer\obj\Debug\netcoreapp2.0\PresentationLayer.pdb

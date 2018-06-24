@@ -1,6 +1,8 @@
-﻿@*@model HelloModel*@
+﻿@using PresentationLayer.Models;
+@*@model HelloModel*@
 
-@model List<DataLayer.Entityes.Directory>
+@*@model List<DataLayer.Entityes.Directory>*@
+@model List<DirectoryViewModel>
 @{
     ViewData["Title"] = "Home Page";
 }
@@ -12,13 +14,13 @@
             @foreach (var item in Model)
             {
                 <li>
-                    <h2>@item.Title</h2>
+                    <h2>@item.Directory.Title</h2>
                     <ul>
                         @if (item.Materials != null)
                         {
                             foreach (var subItem in item.Materials)
                             {
-                            <li>@subItem.Title</li>
+                                <li>@subItem.Material.Title</li>
                             }
                         }
                     </ul>

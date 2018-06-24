@@ -11,6 +11,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using PresentationLayer;
 
 namespace WebApplication1
 {
@@ -34,6 +35,7 @@ namespace WebApplication1
             services.AddTransient<IMaterialsRepository, EFMaterialsRepository>();
 
             services.AddScoped<DataManager>();
+            
             services.AddMvc();
         }
 

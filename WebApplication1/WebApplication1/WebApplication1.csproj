@@ -15,6 +15,7 @@
   <ItemGroup>
     <ProjectReference Include="..\BuissnesLayer\BuissnesLayer.csproj" />
     <ProjectReference Include="..\DataLayer\DataLayer.csproj" />
+    <ProjectReference Include="..\PresentationLayer\PresentationLayer.csproj" />
   </ItemGroup>
 
 </Project>
