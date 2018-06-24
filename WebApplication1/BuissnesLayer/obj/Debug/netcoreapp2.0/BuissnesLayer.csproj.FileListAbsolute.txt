@@ -1,0 +1,12 @@
+D:\Шара\Projects\Git\LoftBlogAspNetCoreProject\WebApplication1\BuissnesLayer\bin\Debug\netcoreapp2.0\BuissnesLayer.deps.json
+D:\Шара\Projects\Git\LoftBlogAspNetCoreProject\WebApplication1\BuissnesLayer\bin\Debug\netcoreapp2.0\BuissnesLayer.dll
+D:\Шара\Projects\Git\LoftBlogAspNetCoreProject\WebApplication1\BuissnesLayer\bin\Debug\netcoreapp2.0\BuissnesLayer.pdb
+D:\Шара\Projects\Git\LoftBlogAspNetCoreProject\WebApplication1\BuissnesLayer\bin\Debug\netcoreapp2.0\DataLayer.dll
+D:\Шара\Projects\Git\LoftBlogAspNetCoreProject\WebApplication1\BuissnesLayer\bin\Debug\netcoreapp2.0\DataLayer.pdb
+D:\Шара\Projects\Git\LoftBlogAspNetCoreProject\WebApplication1\BuissnesLayer\obj\Debug\netcoreapp2.0\BuissnesLayer.csprojAssemblyReference.cache
+D:\Шара\Projects\Git\LoftBlogAspNetCoreProject\WebApplication1\BuissnesLayer\obj\Debug\netcoreapp2.0\BuissnesLayer.csproj.CoreCompileInputs.cache
+D:\Шара\Projects\Git\LoftBlogAspNetCoreProject\WebApplication1\BuissnesLayer\obj\Debug\netcoreapp2.0\BuissnesLayer.AssemblyInfoInputs.cache
+D:\Шара\Projects\Git\LoftBlogAspNetCoreProject\WebApplication1\BuissnesLayer\obj\Debug\netcoreapp2.0\BuissnesLayer.AssemblyInfo.cs
+D:\Шара\Projects\Git\LoftBlogAspNetCoreProject\WebApplication1\BuissnesLayer\obj\Debug\netcoreapp2.0\BuissnesLayer.csproj.CopyComplete
+D:\Шара\Projects\Git\LoftBlogAspNetCoreProject\WebApplication1\BuissnesLayer\obj\Debug\netcoreapp2.0\BuissnesLayer.dll
+D:\Шара\Projects\Git\LoftBlogAspNetCoreProject\WebApplication1\BuissnesLayer\obj\Debug\netcoreapp2.0\BuissnesLayer.pdb
