@@ -12,7 +12,8 @@ namespace WebApplication1.Controllers
     {
         public IActionResult Index()
         {
-            return View();
+            HelloModel _model = new HelloModel() { HelloMessage = "Hey Aleksander!" };
+            return View(_model);
         }
 
         public IActionResult About()
