@@ -8,3 +8,4 @@ D:\Шара\Projects\Git\LoftBlogAspNetCoreProject\WebApplication1\DataLayer\bin
 D:\Шара\Projects\Git\LoftBlogAspNetCoreProject\WebApplication1\DataLayer\bin\Debug\netcoreapp2.0\DataLayer.pdb
 D:\Шара\Projects\Git\LoftBlogAspNetCoreProject\WebApplication1\DataLayer\obj\Debug\netcoreapp2.0\DataLayer.dll
 D:\Шара\Projects\Git\LoftBlogAspNetCoreProject\WebApplication1\DataLayer\obj\Debug\netcoreapp2.0\DataLayer.pdb
+D:\Шара\Projects\Git\LoftBlogAspNetCoreProject\WebApplication1\DataLayer\obj\Debug\netcoreapp2.0\DataLayer.csprojAssemblyReference.cache
