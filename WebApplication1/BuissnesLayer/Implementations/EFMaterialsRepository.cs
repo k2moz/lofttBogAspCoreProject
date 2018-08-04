@@ -33,7 +33,7 @@ namespace BuissnesLayer.Implementations
                 return context.Material.FirstOrDefault(x => x.Id == materialId);
         }
 
-        public void SaveDirectory(Material material)
+        public void SaveMaterial(Material material)
         {
             if (material.Id == 0)
                 context.Material.Add(material);
@@ -42,7 +42,7 @@ namespace BuissnesLayer.Implementations
             context.SaveChanges();
         }
 
-        public void DeleteDirectory(Material material)
+        public void DeleteMaterial(Material material)
         {
             context.Material.Remove(material);
             context.SaveChanges();
