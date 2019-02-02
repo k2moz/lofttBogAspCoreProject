@@ -15,18 +15,30 @@
             @foreach (var item in Model)
             {
                 <li>
-                    <h2><a asp-action="Index" asp-controller="Page" asp-route-pageId="@item.Directory.Id" asp-route-pageType="@PageEnums.PageType.Directory" >@item.Directory.Title</a></h2>
+                    <h2>
+                        <a asp-action="Index" asp-controller="Page" asp-route-pageId="@item.Directory.Id" asp-route-pageType="@PageEnums.PageType.Directory">@item.Directory.Title</a>
+                        <a asp-action="PageEditor" asp-controller="Page" asp-route-pageId="@item.Directory.Id" asp-route-pageType="@PageEnums.PageType.Directory"> - edit</a>
+                    </h2>
                     <ul>
                         @if (item.Materials != null)
                         {
                             foreach (var subItem in item.Materials)
                             {
-                                <li><a asp-action="Index" asp-controller="Page" asp-route-pageId="@subItem.Material.Id" asp-route-pageType="@PageEnums.PageType.Material">@subItem.Material.Title</a></li>
+                                <li>
+                                    <a asp-action="Index" asp-controller="Page" asp-route-pageId="@subItem.Material.Id" asp-route-pageType="@PageEnums.PageType.Material">@subItem.Material.Title</a>
+                                    <a asp-action="PageEditor" asp-controller="Page" asp-route-pageId="@subItem.Material.Id" asp-route-directoryid="@item.Directory.Id" asp-route-pageType="@PageEnums.PageType.Material">-edit</a>
+                                </li>
                             }
+                            <li>
+                                <a asp-action="PageEditor" asp-controller="Page" asp-route-pageId="0" asp-route-directoryid="@item.Directory.Id" asp-route-pageType="@PageEnums.PageType.Material">-create Material</a>
+                            </li>
                         }
                     </ul>
                 </li>
             }
+            <li>
+                <a asp-action="PageEditor" asp-controller="Page" asp-route-pageId="0" asp-route-pageType="@PageEnums.PageType.Directory">-create Directory</a>
+            </li>
         </ul>
     </div>
 </div>

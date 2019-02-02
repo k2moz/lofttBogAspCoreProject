@@ -32,17 +32,41 @@ namespace WebApplication1.Controllers
             ViewBag.PageType = pageType;
             return View(_viewModel);
         }
-        public IActionResult PageEditor(int pageId, PageType pageType)
+
+        [HttpGet]
+        public IActionResult PageEditor(int pageId, PageType pageType, int directoryId = 0)
         {
             PageEditModel _editModel;
+
             switch (pageType)
             {
-                case PageType.Directory: _editModel = _servicesmanager.Directorys.GetDirectoryEdetModel(pageId);break;
-                case PageType.Material: _editModel = _servicesmanager.Materials.GetMaterialEdetModel(pageId); break;
-                default: _editModel = null;break;
+                case PageType.Directory:
+                    if (pageId != 0) _editModel = _servicesmanager.Directorys.GetDirectoryEdetModel(pageId);
+                    else _editModel = _servicesmanager.Directorys.CreateNewDirectoryEditModel();
+                    break;
+                case PageType.Material:
+                    if (pageId != 0) _editModel = _servicesmanager.Materials.GetMaterialEdetModel(pageId);
+                    else _editModel = _servicesmanager.Materials.CreateNewMaterialEditModel(directoryId);
+                    break;
+                default: _editModel = null; break;
             }
+
             ViewBag.PageType = pageType;
             return View(_editModel);
+        }
+
+        [HttpPost]
+        public IActionResult SaveDirectory(DirectoryEditModel model)
+        {
+            _servicesmanager.Directorys.SaveDirectoryEditModelToDb(model);
+            return RedirectToAction("PageEditor", "Page", new { pageId = model.Id, pageType=PageType.Directory });
+        }
+
+        [HttpPost]
+        public IActionResult SaveMaterial (MaterialEditModel model)
+        {
+            _servicesmanager.Materials.SaveMaterialEditModelToDb(model);
+            return RedirectToAction("PageEditor", "Page", new { pageId = model.Id, pageType=PageType.Material });
         }
     }
 }

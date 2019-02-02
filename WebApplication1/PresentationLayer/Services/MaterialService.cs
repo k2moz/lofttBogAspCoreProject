@@ -60,7 +60,10 @@ namespace PresentationLayer.Services
             dataManager.Materials.SaveMaterial(material);
             return MaterialDBModelToView(material.Id);
         }
-
+        public MaterialEditModel CreateNewMaterialEditModel(int directoryId)
+        {
+            return new MaterialEditModel() { Directoryid = directoryId };
+        }
 
     }
 }
